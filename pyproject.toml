@@ -24,6 +24,7 @@ stamina = "^24.2.0"
 justext = "*"
 cache_to_disk = "*"
 rich = "*"
+requests = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
@@ -32,6 +33,7 @@ httpx = "^0.24.1"
 pytest = "^7.4.1"
 types-requests = "^2.31.0.1"
 pre-commit = "^3.4.0"
+responses = "^0.14.0"
 
 [tool.ruff]
 line-length = 120
