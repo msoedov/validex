@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "morph"
+name = "validex"
 version = "0.0.1"
 description = "A Python package to extract data from unstructured into structured format"
 authors = ["Alexander Miasoiedov <msoedov@gmail.com>"]
 maintainers = ["Alexander Miasoiedov <msoedov@gmail.com>"]
-repository = "https://github.com/msoedov/morph"
+repository = "https://github.com/msoedov/validex"
 license = "MIT"
 readme = "Readme.md"
 keywords = [
@@ -15,7 +15,7 @@ keywords = [
     "fastapi",
     "llm",
 ]
-packages = [{ include = "morph", from = "." }]
+packages = [{ include = "validex", from = "." }]
 
 [tool.poetry.dependencies]
 python = "^3.10"

@@ -1,4 +1,4 @@
-from morph.base import DataCleaner
+from validex.base import DataCleaner
 
 
 class TestDataCleaner:

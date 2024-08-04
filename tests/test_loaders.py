@@ -3,7 +3,7 @@ from unittest.mock import mock_open, patch
 import pytest
 import responses
 
-from morph.loaders import (
+from validex.loaders import (
     LocalTextLoader,
     LocalTextPatternLoader,
     PdfFileLoader,

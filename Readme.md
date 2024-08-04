@@ -1,14 +1,14 @@
-# Morph
+# ValidEx
 
-Morph is a Python library that simplifies retrieval, extraction and training of structured data from various unstructured sources.
+ValidEx is a Python library that simplifies retrieval, extraction and training of structured data from various unstructured sources.
 
 <p>
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/msoedov/morph" />
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/msoedov/morph" />
-<img alt="" src="https://img.shields.io/github/repo-size/msoedov/morph" />
-<img alt="GitHub Issues" src="https://img.shields.io/github/issues/msoedov/morph" />
-<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/msoedov/morph" />
-<img alt="Github License" src="https://img.shields.io/github/license/msoedov/morph" />
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/msoedov/validex" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/msoedov/validex" />
+<img alt="" src="https://img.shields.io/github/repo-size/msoedov/validex" />
+<img alt="GitHub Issues" src="https://img.shields.io/github/issues/msoedov/validex" />
+<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/msoedov/validex" />
+<img alt="Github License" src="https://img.shields.io/github/license/msoedov/validex" />
 </p>
 
 ## 🏷 Features
@@ -23,16 +23,16 @@ Morph is a Python library that simplifies retrieval, extraction and training of 
 
 ## 📦 Installation
 
-To get started with VectorLake, simply install the package using pip:
+To get started with ValidEx, simply install the package using pip:
 
 ```shell
-pip install morph
+pip install validex
 ```
 
 ## ⛓️ Quick Start
 
 ```python
-import morph
+import validex
 from pydantic import BaseModel
 
 
@@ -44,9 +44,8 @@ class Superhero(BaseModel):
 
 
 def main():
-    app = morph.App()
-    app.set_budget(1000)
-    app.set_retries(4)
+    app = validex.App()
+
     app.add("https://www.britannica.com/topic/list-of-superheroes-2024795")
     app.add("*.txt")
     app.add("*.pdf")
@@ -175,7 +174,7 @@ app.export_jsonl("fine_tune.jsonl")
 
 # Local model training
 app.fit()
-app.save("state.morph")
+app.save("state.validex")
 
 
 app.infer_extract("booob")
@@ -183,7 +182,7 @@ app.infer_extract("booob")
 
 ### Multi-model Extraction
 
-Morph supports extracting multiple models at once
+ValidEx supports extracting multiple models at once
 
 ```python
 class Superhero2(BaseModel):
@@ -205,16 +204,16 @@ TBD
 
 ## 👋 Contributing
 
-Contributions to VectorLake are welcome! If you'd like to contribute, please follow these steps:
+Contributions to ValidEx are welcome! If you'd like to contribute, please follow these steps:
 
 - Fork the repository on GitHub
 - Create a new branch for your changes
 - Commit your changes to the new branch
 - Push your changes to the forked repository
-- Open a pull request to the main VectorLake repository
+- Open a pull request to the main ValidEx repository
 
 Before contributing, please read the contributing guidelines.
 
 ## License
 
-Morph is released under the MIT License.
+ValidEx is released under the MIT License.

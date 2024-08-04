@@ -11,10 +11,10 @@ from rich.box import ROUNDED
 from rich.console import Console
 from rich.table import Table
 
-import morph.loaders as loaders
-import morph.training as training
-from morph.logger import log
-from morph.utils import async_cache_to_disk
+import validex.loaders as loaders
+import validex.training as training
+from validex.logger import log
+from validex.utils import async_cache_to_disk
 
 T = TypeVar("T", bound=BaseModel)
 

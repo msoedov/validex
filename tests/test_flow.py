@@ -3,8 +3,8 @@ from unittest.mock import patch
 import pytest
 from pydantic import BaseModel
 
-import morph.loaders as loaders
-from morph.base import App, DataCleaner
+import validex.loaders as loaders
+from validex.base import App, DataCleaner
 
 
 # Example usage
@@ -86,7 +86,7 @@ def test_pdf_file_loader(mock_load_data, setup_schema_flow):
     assert "PDF file content" in setup_schema_flow.data
 
 
-@patch("morph.base._cached_extract")
+@patch("validex.base._cached_extract")
 def test_extract(mock_cached_extract, setup_schema_flow):
     mock_cached_extract.return_value = [
         Superhero(name="Superman", age=30, power="Flying", enemies=["Lex Luthor"])
@@ -98,7 +98,7 @@ def test_extract(mock_cached_extract, setup_schema_flow):
     assert superheroes[0][0].name == "Superman"
 
 
-@patch("morph.base._async_cached_extract")
+@patch("validex.base._async_cached_extract")
 @pytest.mark.asyncio
 async def test_extract_async(mock_async_cached_extract, setup_schema_flow):
     mock_async_cached_extract.return_value = [

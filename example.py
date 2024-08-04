@@ -2,7 +2,7 @@ import re
 
 from pydantic import BaseModel
 
-import morph
+import validex
 
 
 # Example usage
@@ -48,9 +48,7 @@ class Superhero2(BaseModel):
 
 
 def main(inference=True):
-    app = morph.App()
-    app.set_budget(1000)
-    app.set_retries(4)
+    app = validex.App()
 
     app.add("https://www.britannica.com/topic/list-of-superheroes-2024795")
     app.add("*.txt")
@@ -99,7 +97,7 @@ def main(inference=True):
         return
 
     app.fit()
-    app.save("state.morph")
+    app.save("state.validex")
     struct = app.infer_extract(
         """
 Superhero Name: Quantum Spark

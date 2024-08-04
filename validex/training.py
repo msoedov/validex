@@ -3,7 +3,7 @@
 import json
 from typing import Any
 
-from morph.logger import log
+from validex.logger import log
 
 
 class TrainingMixin:

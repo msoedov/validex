@@ -255,4 +255,4 @@ dmypy.json
 
 content_diffs/
 *.jsonl
-*.morph
+*.validex
