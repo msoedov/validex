@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "morph"
+version = "0.0.1"
+description = "A Python package to extract data from unstructured into structured format"
+authors = ["Alexander Miasoiedov <msoedov@gmail.com>"]
+maintainers = ["Alexander Miasoiedov <msoedov@gmail.com>"]
+repository = "https://github.com/msoedov/morph"
+license = "MIT"
+readme = "Readme.md"
+keywords = [
+    "nlp",
+    "extraction",
+    "openai",
+    "structured output parsing",
+    "fastapi",
+    "llm",
+]
+packages = [{ include = "morph", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+magentic = "^0.26.0"
+stamina = "^24.2.0"
+justext = "*"
+cache_to_disk = "*"
+rich = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+mypy = "^1.5.1"
+httpx = "^0.24.1"
+pytest = "^7.4.1"
+types-requests = "^2.31.0.1"
+pre-commit = "^3.4.0"
+
+[tool.ruff]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
