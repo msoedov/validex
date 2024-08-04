@@ -27,6 +27,7 @@ rich = "*"
 requests = "*"
 feedparser = "*"
 pypdf = "*"
+pytest-asyncio = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
