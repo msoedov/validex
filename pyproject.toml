@@ -25,6 +25,8 @@ justext = "*"
 cache_to_disk = "*"
 rich = "*"
 requests = "*"
+feedparser = "*"
+pypdf = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
