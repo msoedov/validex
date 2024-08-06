@@ -30,7 +30,7 @@ pypdf = "*"
 pytest-asyncio = "*"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
+black = ">=23.7,<25.0"
 mypy = "^1.5.1"
 httpx = "^0.24.1"
 pytest = ">=7.4.1,<9.0.0"
