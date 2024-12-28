@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "validex"
-version = "0.0.2"
+version = "0.0.3"
 description = "A Python package to extract data from unstructured into structured format"
 authors = ["Alexander Miasoiedov <msoedov@gmail.com>"]
 maintainers = ["Alexander Miasoiedov <msoedov@gmail.com>"]
@@ -19,7 +19,7 @@ packages = [{ include = "validex", from = "." }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-magentic = "^0.32.0"
+magentic = "^0.34.1"
 stamina = "^24.3.0"
 justext = "*"
 cache_to_disk = "*"
@@ -31,8 +31,8 @@ pytest-asyncio = "^0.24.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
-httpx = "^0.27.2"
-pytest = ">=8.3.3,<9.0.0"
+httpx = "^0.28.1"
+pytest = "^8.3.4"
 types-requests = "^2.32.0.20241016"
 pre-commit = "^4.0.1"
 responses = "^0.25.3"
@@ -43,3 +43,8 @@ line-length = 120
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

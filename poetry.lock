@@ -344,13 +344,13 @@ trio = ["trio (>=0.22.0,<1.0)"]
 
 [[package]]
 name = "httpx"
-version = "0.27.2"
+version = "0.28.1"
 description = "The next generation HTTP client."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "httpx-0.27.2-py3-none-any.whl", hash = "sha256:7bb2708e112d8fdd7829cd4243970f0c223274051cb35ee80c03301ee29a3df0"},
-    {file = "httpx-0.27.2.tar.gz", hash = "sha256:f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"},
+    {file = "httpx-0.28.1-py3-none-any.whl", hash = "sha256:d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"},
+    {file = "httpx-0.28.1.tar.gz", hash = "sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc"},
 ]
 
 [package.dependencies]
@@ -358,7 +358,6 @@ anyio = "*"
 certifi = "*"
 httpcore = "==1.*"
 idna = "*"
-sniffio = "*"
 
 [package.extras]
 brotli = ["brotli", "brotlicffi"]
@@ -687,18 +686,18 @@ lxml = "*"
 
 [[package]]
 name = "magentic"
-version = "0.32.0"
+version = "0.34.1"
 description = "Seamlessly integrate LLMs as Python functions"
 optional = false
-python-versions = "<4.0,>=3.10"
+python-versions = ">=3.10"
 files = [
-    {file = "magentic-0.32.0-py3-none-any.whl", hash = "sha256:3772a4c166d4365337d3e1ca7731b522f97a99b776fb06202d4503de5ed52762"},
-    {file = "magentic-0.32.0.tar.gz", hash = "sha256:b99430edc00b8d089e56fdd393b8804239db90d6a4fcd36db6947e4414237a77"},
+    {file = "magentic-0.34.1-py3-none-any.whl", hash = "sha256:514c490dfe221acea56105992892bffe168fb72c8fc469b37b85321355b15170"},
+    {file = "magentic-0.34.1.tar.gz", hash = "sha256:b6a5ead34c3db76b6fae5f413341fda007af402ed06e9de10b312a057a3a9abe"},
 ]
 
 [package.dependencies]
-filetype = "*"
-logfire-api = "*"
+filetype = ">=1.2.0"
+logfire-api = ">=0.1.0"
 openai = ">=1.40.0"
 pydantic = ">=2.7.0"
 pydantic-settings = ">=2.0.0"
@@ -1028,13 +1027,13 @@ image = ["Pillow (>=8.0.0)"]
 
 [[package]]
 name = "pytest"
-version = "8.3.3"
+version = "8.3.4"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pytest-8.3.3-py3-none-any.whl", hash = "sha256:a6853c7375b2663155079443d2e45de913a911a11d669df02a50814944db57b2"},
-    {file = "pytest-8.3.3.tar.gz", hash = "sha256:70b98107bd648308a7952b06e6ca9a50bc660be218d53c257cc1fc94fda10181"},
+    {file = "pytest-8.3.4-py3-none-any.whl", hash = "sha256:50e16d954148559c9a74109af1eaf0c945ba2d8f30f0a3d3335edde19788b6f6"},
+    {file = "pytest-8.3.4.tar.gz", hash = "sha256:965370d062bce11e73868e0335abac31b4d3de0e82f4007408d242b4f8610761"},
 ]
 
 [package.dependencies]
@@ -1355,4 +1354,4 @@ test = ["covdefaults (>=2.2.2)", "coverage (>=7.1)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e06c4af652a9b5c85c31237cbb52b36f80bc017d27cf22719143502d0a198fe9"
+content-hash = "5faed55a4ed0a103f96ee41bff9da4164583cfd869a6321b0eddfd0eafeca0f8"
