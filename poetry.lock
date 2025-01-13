@@ -673,13 +673,13 @@ source = ["Cython (>=3.0.10)"]
 
 [[package]]
 name = "lxml-html-clean"
-version = "0.2.0"
+version = "0.4.0"
 description = "HTML cleaner from lxml project"
 optional = false
 python-versions = "*"
 files = [
-    {file = "lxml_html_clean-0.2.0-py3-none-any.whl", hash = "sha256:80bdc730b288b8e68f0bf86b99f4bbef129c5ec59b694c6681422be4c1eeb3c5"},
-    {file = "lxml_html_clean-0.2.0.tar.gz", hash = "sha256:47c323f39d95d4cbf4956da62929c89a79313074467efaa4821013c97bf95628"},
+    {file = "lxml_html_clean-0.4.0-py3-none-any.whl", hash = "sha256:3b5aedb6c2b4b684c0fbc8d4f1b901aae0a92c1ce525de84e71cc6dd1d9d4e3d"},
+    {file = "lxml_html_clean-0.4.0.tar.gz", hash = "sha256:a8b517d3f46c19e9303eafb2a1b4b422fe724ad42ae53793637a8e5cc36ffbc1"},
 ]
 
 [package.dependencies]
