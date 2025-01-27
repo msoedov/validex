@@ -687,13 +687,13 @@ lxml = "*"
 
 [[package]]
 name = "magentic"
-version = "0.37.0"
+version = "0.38.0"
 description = "Seamlessly integrate LLMs as Python functions"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "magentic-0.37.0-py3-none-any.whl", hash = "sha256:1201fc9b31d58b62370587d7702c109ea8fa51dd65aa6e8a69be60ed2ad4000c"},
-    {file = "magentic-0.37.0.tar.gz", hash = "sha256:e8553d194d9baec063f063e4363746fafaa4002995c00116c204c4992eef548d"},
+    {file = "magentic-0.38.0-py3-none-any.whl", hash = "sha256:1ddc0bad19044f4fa486f23849ed8045c08a2189cab95dc00c2056a5a165348d"},
+    {file = "magentic-0.38.0.tar.gz", hash = "sha256:c34b006899625371d87dd99edb90956c4693de7b3f561c961c5c0e2d3c3f53db"},
 ]
 
 [package.dependencies]
@@ -1380,4 +1380,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "345a9958f67053be4e1c83dc3a8909a75654ce80e38940f23b1f63ddb79ed239"
+content-hash = "9ff0c188a7162c54aa37bf293b7ff0ad8524ed256ea4d20927b46eb52cb0d90b"

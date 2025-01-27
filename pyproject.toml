@@ -19,7 +19,7 @@ packages = [{ include = "validex", from = "." }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-magentic = ">=0.34.1,<0.38.0"
+magentic = ">=0.34.1,<0.39.0"
 stamina = "^24.3.0"
 justext = "*"
 cache_to_disk = "*"
