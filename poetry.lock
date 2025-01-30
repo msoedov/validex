@@ -687,13 +687,13 @@ lxml = "*"
 
 [[package]]
 name = "magentic"
-version = "0.38.0"
+version = "0.38.1"
 description = "Seamlessly integrate LLMs as Python functions"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "magentic-0.38.0-py3-none-any.whl", hash = "sha256:1ddc0bad19044f4fa486f23849ed8045c08a2189cab95dc00c2056a5a165348d"},
-    {file = "magentic-0.38.0.tar.gz", hash = "sha256:c34b006899625371d87dd99edb90956c4693de7b3f561c961c5c0e2d3c3f53db"},
+    {file = "magentic-0.38.1-py3-none-any.whl", hash = "sha256:433e80b9b6f1230d2871b364fc38bc7f8d1c9f645afa1469d7c14d5adbb1393e"},
+    {file = "magentic-0.38.1.tar.gz", hash = "sha256:017105d6a7758b838018be50964cec64c3885bb93bbac863dda3ef0e3195f327"},
 ]
 
 [package.dependencies]
