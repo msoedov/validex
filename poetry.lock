@@ -1307,23 +1307,23 @@ files = [
 
 [[package]]
 name = "stamina"
-version = "24.3.0"
+version = "25.1.0"
 description = "Production-grade retries made easy."
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "stamina-24.3.0-py3-none-any.whl", hash = "sha256:28caf1a5db514256d86e32b60621630552fa9a60dace4e6fb5c78ba15f26236e"},
-    {file = "stamina-24.3.0.tar.gz", hash = "sha256:1d763c98962ca11f1729c357422926a750a138e803e7beb9f9d6c99d33d9997d"},
+    {file = "stamina-25.1.0-py3-none-any.whl", hash = "sha256:c08291da540e6f4243c20f7ee98f0ed0ac9101d639803c481a029b56d7e9b45d"},
+    {file = "stamina-25.1.0.tar.gz", hash = "sha256:ad674809796ae40512b3b6296cfade826efd63863ff2ca2f59f806342e91e94a"},
 ]
 
 [package.dependencies]
 tenacity = "*"
 
 [package.extras]
-dev = ["anyio", "mypy (>=1.4)", "nox (>=2024.3.2)", "prometheus-client", "pytest", "structlog", "tomli ; python_version < \"3.11\"", "trio", "uv"]
+dev = ["anyio", "dirty-equals", "mypy (>=1.4)", "nox (>=2024.3.2)", "prometheus-client", "pytest", "structlog", "tomli ; python_version < \"3.11\"", "trio", "uv"]
 docs = ["furo", "myst-parser", "prometheus-client", "sphinx (>=7.2.2)", "sphinx-copybutton", "sphinx-notfound-page", "structlog"]
-tests = ["anyio", "pytest"]
+tests = ["anyio", "dirty-equals", "pytest"]
 typing = ["mypy (>=1.4)"]
 
 [[package]]
@@ -1445,4 +1445,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "ac215eaf256867df6f33201ee0fcdf492ce029b292c17574d3f30f1523968e7c"
+content-hash = "5ba3f5b43aa768784289dfcfb2f82850db5145d3390fd1385d174725ebe47389"
